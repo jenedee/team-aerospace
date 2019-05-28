@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  background: url("https://cdn.pixabay.com/photo/2016/05/13/20/15/flowers-1390807_960_720.jpg");
+  color: white;
+  font-family: verdana;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  background-color: grey;
+  opacity: 0.3;
+}
