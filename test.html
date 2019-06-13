@@ -10,16 +10,19 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-    <!-- Custom styles for this template -->
-    <link href="css/style_index.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style_test.css">
     </head>
 
   <body>
-
     <div class="welcome-page">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <main role="main" class="container">
+
+      <div class="carousel-text">
+        <h1>Welcome</h1>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -45,45 +48,8 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
-
-    <main role="main" class="container">
-
-      <div class="starter-template">
-        <h1>Welcome</h1>
-        <p class="lead">to our event page.</p>
-      </div>
-
- <div class="row" id="button_sign">
-   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Sign up here
-   </button>
-
-   <!-- Modal -->
-   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-     <div class="modal-dialog" role="document">
-       <div class="modal-content">
-         <div class="modal-header">
-           <h5 class="modal-title" id="exampleModalLabel">Hi!</h5>
-           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-             <span aria-hidden="true">&times;</span>
-           </button>
-         </div>
-         <div class="modal-body">
-          <p>Join us today</p>
-          <input type="email" placeholder="Your email">
-         <input type="submit">
-         </div>
-         <div class="modal-footer">
-           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-           <button type="button" class="btn btn-primary">Save changes</button>
-         </div>
-       </div>
-     </div>
-   </div>
-
- </main><!-- /.container -->
-
+    </main><!-- /.container -->
+  </div>
  <!-- Bootstrap core JavaScript
  ================================================== -->
  <!-- Placed at the end of the document so the pages load faster -->
@@ -91,7 +57,6 @@
  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
  <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
  <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
-  <script src="js/index.js"></script>
+ <script src="js/index.js"></script>
 </body>
-</div>
 </html>
